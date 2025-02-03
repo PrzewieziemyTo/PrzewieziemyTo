@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrzewieziemyTo.pl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>PrzewieziemyTo.pl</h1>
+            <p>Przewozimy, przeprowadzamy, pomagamy! Szybko, bezpiecznie, profesjonalnie.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#uslugi">Usługi</a></li>
+                <li><a href="#o-nas">O Nas</a></li>
+                <li><a href="#cennik">Cennik</a></li>
+                <li><a href="#opinie">Opinie</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Strona Główna -->
+    <section id="home">
+        <h2>Witaj w PrzewieziemyTo.pl!</h2>
+        <p>Oferujemy kompleksowe usługi transportowe: przeprowadzki, wywóz mebli, opróżnianie strychów, piwnic i garaży.</p>
+        <a href="#kontakt" class="btn">Skontaktuj się z nami</a>
+    </section>
+
+    <!-- Usługi -->
+    <section id="uslugi">
+        <h2>Nasze Usługi</h2>
+        <div class="uslugi">
+            <div class="usluga">
+                <h3>Przeprowadzki</h3>
+                <p>Bezpiecznie przewieziemy Twoje rzeczy do nowego domu.</p>
+            </div>
+            <div class="usluga">
+                <h3>Wywóz Mebli</h3>
+                <p>Stare meble? Zajmiemy się tym!</p>
+            </div>
+            <div class="usluga">
+                <h3>Opróżnianie Przestrzeni</h3>
+                <p>Opróżnimy strychy, piwnice i garaże z niepotrzebnych rzeczy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Nas -->
+    <section id="o-nas">
+        <h2>O Nas</h2>
+        <p>Jesteśmy zespołem pasjonatów transportu, którzy dbają o Twoje mienie. Działamy z pełnym zaangażowaniem, oferując szybkie i bezpieczne usługi.</p>
+    </section>
+
+    <!-- Cennik -->
+    <section id="cennik">
+        <h2>Cennik</h2>
+        <ul>
+            <li>Przeprowadzki - od 200 zł</li>
+            <li>Wywóz mebli - od 150 zł</li>
+            <li>Opróżnianie przestrzeni - od 100 zł</li>
+        </ul>
+    </section>
+
+    <!-- Opinie -->
+    <section id="opinie">
+        <h2>Opinie Klientów</h2>
+        <p>"Świetna firma, bardzo pomocna!" - Michał K.</p>
+        <p>"Szybka przeprowadzka, polecam!" - Anna L.</p>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <form action="mailto:contact@przewiezyemet.pl" method="post" enctype="text/plain">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PrzewieziemyTo.pl | Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
